@@ -11,7 +11,10 @@ app.use(cors())
 app.use(router)
 
 app.get("/", (req,res)=>{
-    res.send("welcome")
+     res.send(`
+    <h1>🎉 Welcome to the Backend API! 🚀</h1>
+    <p>🔧 CRUD operations are ready to go!</p>
+  `);
 })
 
 app.listen(process.env.PORT, async()=>{
