@@ -38,5 +38,5 @@ A full-stack CRUD (Create, Read, Update, Delete) web application built using the
 - 📱 Responsive UI
 
 
-## 📁 Folder Structure
+
 
